@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Budget Tracker</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-heading">
+       <h1>My Budget Tracker</h1>
+        <p>Track your income and expenses in one place.</p>
+    </header>
+    <section class="expense-section">
+        <h2> Add Expense</h2>
+         <form>
+         <label for="expense-name">Expense Name:</label>
+         <input type="text" id="expense-name" placeholder="Enter expense name">
+<label for="category">Category:</label>
+       <select id="category">
+    <option>Food</option>
+    <option>Transport</option>
+    <option>Rent</option>
+    <option>Entertainment</option>
+    <option>Other</option>
+</select>
+<label for="amount">Amount:</label>
+<input type="number" id="amount" placeholder="Enter amount">
+
+<button type="button">Add Expense</button>
+</form>
+</section>
+
+    <section id="expense">
+         <h2>Your Expenses</h2>
+      <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Lunch</td>
+            <td>500</td>
+            <td>Food</td>
+            <td>15/09/2026</td>
+        </tr>
+
+        <tr>
+            <td>Bus</td>
+            <td>200</td>
+            <td>Transport</td>
+            <td>15/09/2026</td>
+        </tr>
+
+        <tr>
+            <td>Rent</td>
+            <td>5000</td>
+            <td>Rent</td>
+            <td>14/09/2026</td>
+        </tr>
+
+        <tr>
+            <td>Movie</td>
+            <td>800</td>
+            <td>Entertainment</td>
+            <td>13/09/2026</td>
+        </tr>
+
+        <tr>
+            <td>Shopping</td>
+            <td>1200</td>
+            <td>Other</td>
+            <td>12/09/2026</td>
+        </tr>
+    </tbody>
+</table>
+    </section>
+    <div class="budget-plan">
+    <h2>Budget Plan</h2>
+
+    <img src="https://i.pinimg.com/736x/69/11/5d/69115dc0f1a1ffa0d199fef4381ece88.jpg"
+         alt="Budget planning"
+         width="250">
+
+     <video controls width="500">
+        <source src="https://youtu.be/jx_DnbnvOK0?si=EV78j73n_rejyMWo" type="video/mp4">
+    </video>
+<iframe src="https://www.youtube.com/embed/jx_DnbnvOK0"
+        width="500"
+        height="300"
+        title="Budget video"
+        frameborder="0"
+        allowfullscreen>
+</iframe>
+<details>
+    <summary>Budget Tips</summary>
+    <p>Track your expenses and avoid spending more than you earn.</p>
+</details>
+   
+</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:  #f4f4f4;
+}
+#main-heading {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+.expense-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+#expenses {
+    background-color: lightyellow;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+};
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+th {
+    background-color: lightblue;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+input:not([type="submit"]) {
+    border: 1px solid #aaa;
+}
+input:focus {
+    outline: 2px solid lightblue;
+}
+button {
+    cursor: pointer;
+}
+select {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+}
