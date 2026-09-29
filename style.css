@@ -1,65 +1,158 @@
-body{
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;500;600&display=swap');
+
+body {
     margin: 0;
     padding: 20px;
-    background-color:  #f4f4f4;
-}
-#main-heading {
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
-}
-.expense-section {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    border: 1px solid #ccc;
+    background-color: #f4f7f6;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
 }
 
-#expenses {
-    background-color: lightyellow;
-    padding: 20px;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-}input {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 250px;
-};
+/* Main Heading Card */
+#main-heading {
+    background-color: #1f6f78;
+    color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 1px solid #15545b;
+    border-radius: 12px;
 }
+
+#main-heading h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1f6f78;
+}
+
+/* Add Expense Card */
+.expense-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #d9e2e3;
+    border-radius: 12px;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+/* Form Inputs */
+input,
+select {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #b8c9cb;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Input Focus */
+input:focus,
+select:focus {
+    outline: 2px solid #1f6f78;
+    border-color: #1f6f78;
+}
+
+/* Button */
+button {
+    background-color: #e09f3e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c98628;
+}
+
+/* Expense Table Card */
+#expense {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #d9e2e3;
+    border-radius: 12px;
+}
+
+/* Table */
 table {
     border-collapse: collapse;
     width: 100%;
+    margin-top: 15px;
 }
 
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
+/* Table Cells */
+th,
+td {
+    border: 1px solid #d9e2e3;
+    padding: 12px;
+    text-align: left;
 }
+
+/* Table Header */
 th {
-    background-color: lightblue;
+    background-color: #1f6f78;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/* Alternating Rows */
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f0f7f7;
 }
+
+/* Row Hover */
 tr:hover {
-    background-color: #ddd;
+    background-color: #e2eeee;
 }
-input:not([type="submit"]) {
-    border: 1px solid #aaa;
+
+/* Budget Plan Card */
+.budget-plan {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #d9e2e3;
+    border-radius: 12px;
 }
-input:focus {
-    outline: 2px solid lightblue;
+
+/* Budget Plan Media */
+.budget-plan img,
+.budget-plan video,
+.budget-plan iframe {
+    margin: 10px;
+    border-radius: 8px;
 }
-button {
+
+/* Budget Tips */
+details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #d9e2e3;
+    border-radius: 8px;
+    background-color: #f4f7f6;
+}
+
+summary {
+    font-weight: 600;
+    color: #1f6f78;
     cursor: pointer;
-}
-select {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 250px;
 }
